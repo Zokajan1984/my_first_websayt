@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/nashi_partneri.css">
+    <title>Главная страница</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container-fluid">
+            <div class="menu">
+                <div class="logo">
+                    <a href="./index.html"><img src="./IMG/logo.png" alt=""></a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="./index.html">Главная</a></li>
+                        <li><a href="./index.html">Наши филиалы</a></li>
+                        <li><a href="./tovari.html">Каталог Товаров</a></li>
+                        <li><a href="./o_nas.html">О нас</a></li>
+                        <li><a href="#">Наши партнеры</a></li>
+                        <li><a href="./kontacti.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <h4 class="kontacti">Наши Партнеры</h4>
+
+
+        <section  class="about-us">
+            <div class="container-fluid">
+                <div class="about">
+                    <div class="o_nas_1">
+                        <h2>ПАРТНЕРЫ</h2>
+                        <ul>
+                            <li><a href="#" data-image="../IMG/Europe_GAS.jpg"
+                                    data-text="Europegas-it. EuropeGAS-it является производителем всех необходимых компонентов для установки систем LPG и CNG в передней части автомобиля. Благодаря многолетним исследованиям и испытаниям производимые нами компоненты были настроены таким образом, чтобы они идеально взаимодействовали друг с другом, создавая одно гармоничное целое">EuropeGAS-it</a>
+                            </li>
+                            <li><a href="#" data-image="../IMG/EuropeGAS.jpg" data-text="EuropeGAS является производителем всех необходимых компонентов для установки систем LPG и CNG в передней части автомобиля. Благодаря многолетним исследованиям и испытаниям производимые нами компоненты были настроены таким образом, чтобы они идеально взаимодействовали друг с другом, создавая одно гармоничное целое.">EuropeGAS</a></li>
+                            <li><a href="#" data-image="../IMG/National_PRO_GAS.jpg" data-text="ООО «National PRO GAS» - одно из самых видных предприятий в Узбекистане, занимающееся реализацией современных научных разработок в вопросах газификации автомобилей. Наша организация является официальным дилером в Республике Узбекистан компании «EuropeGAS» (Польша) и компании «JIAXING E-XON POWER TECHNOLOGY CO.LTD» (Китай).">National PRO GAS</a>
+                            </li>
+                            <!-- <li><a href="#" data-image="../IMG/samarqand.jpg" data-text="Текст для Самарканда">Ссылка
+                                    4</a></li>
+                            <li><a href="#" data-image="../IMG/tashkent_city.png" data-text="Текст для Ташкента">Ссылка
+                                    5</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="rail_2_1">
+                        <div class="text-overlay">
+                            <p id="dynamic-text_1">Текст для первого изображения</p>
+                            <img src="./IMG/RAIL_2.jpg" alt="Изображение вашей команды" id="dynamic-image_1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="container">
+
+            <div class="footer">
+
+                <div class="nash_footer">
+
+                    <p>Следите за нами в социальных сетях:</p>
+                    <div class="social-links">
+                        <a href="https://t.me/yourtelegram" target="_blank" class="social telegram">
+                            <img src="./IMG/telegram_icon-icons.com_72055.png" alt="Telegram">
+                        </a>
+                        <a href="https://wa.me/yourwhatsapp" target="_blank" class="social whatsapp">
+                            <img src="./IMG/whatsap.png" alt="WhatsApp">
+                        </a>
+                        <a href="https://instagram.com/yourinstagram" target="_blank" class="social instagram">
+                            <img src="./IMG/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div>
+                    <img src="./IMG/logo.png" alt="">
+                </div>
+
+                <div class="partner_footer">
+
+                    <p>Следите за нашами портнерами в<br> социальных сетях:</p>
+                    <div class="social-links">
+                        <a href="https://t.me/yourtelegram" target="_blank" class="social telegram">
+                            <img src="./IMG/telegram_icon-icons.com_72055.png" alt="Telegram">
+                        </a>
+                        <a href="https://wa.me/yourwhatsapp" target="_blank" class="social whatsapp">
+                            <img src="./IMG/whatsap.png" alt="WhatsApp">
+                        </a>
+                        <a href="https://instagram.com/yourinstagram" target="_blank" class="social instagram">
+                            <img src="./IMG/instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <!-- <script>
+
+
+        const links = document.querySelectorAll('.o_nas a');
+        const dynamicText = document.getElementById('dynamic-text');
+        const dynamicImage = document.getElementById('dynamic-image');
+
+        links.forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+
+                const text = link.getAttribute('data-text');
+                const image = link.getAttribute('data-image');
+
+                dynamicText.textContent = text || 'Нет текста для отображения';
+                if (image) {
+                    dynamicImage.src = image;
+                }
+            });
+        });
+
+    </script> -->
+
+
+    <script>
+
+        document.querySelectorAll('.o_nas_1 a').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const imageUrl = this.getAttribute('data-image');
+                const text = this.getAttribute('data-text');
+
+                const dynamicImage = document.getElementById('dynamic-image_1');
+                const dynamicText = document.getElementById('dynamic-text_1');
+
+                // Меняем изображение
+                dynamicImage.src = imageUrl;
+
+                // Меняем текст
+                dynamicText.textContent = text;
+            });
+        });
+
+
+    </script>
+
+
+
+</body>
+
+</html>
